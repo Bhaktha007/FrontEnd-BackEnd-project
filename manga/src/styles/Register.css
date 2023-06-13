@@ -1,0 +1,66 @@
+.auth-form-container-register {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f27b;
+    border-radius: 5px;
+  }
+  .formpage{
+    background-image: url('../assets/login.2.jpg');
+  }
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .regusername,
+  .regemail,
+  .regpassword {
+    height: 35px;
+    width: 300px     ;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .password{
+    margin-bottom: -10px;
+  }
+  
+  .button-register {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  
+  .button-register:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .link-btn-register {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .link-btn-register:hover {
+    color: #4caf50;
+  }
+  
